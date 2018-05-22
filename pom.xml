@@ -43,6 +43,21 @@
 			<!--<scope>true</scope>-->
 		</dependency>
 
+		<dependency><!-- 添加freemaker依赖 -->
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-freemarker</artifactId>
+		</dependency>
+
+		<dependency><!-- 添加thymeleaf依赖 -->
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+		</dependency>
+		<dependency><!-- 添加thymeleaf非严格模式解析html标签的依赖 -->
+			<groupId>net.sourceforge.nekohtml</groupId>
+			<artifactId>nekohtml</artifactId>
+			<version>1.9.22</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
